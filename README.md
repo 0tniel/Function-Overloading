@@ -32,4 +32,30 @@
     </ol>
     
 <h2>Aim</h2>
-    <p>To demonstrate the concept of operator overloading in C++ by creating a program that adds two complex numbers using the overloaded <code>+</code> operator.</p>
+<p>To demonstrate the concept of operator overloading in C++ by creating a program that adds two complex numbers using the overloaded <code>+</code> operator.</p>
+Algorithm for Complex Number Addition using Operator Overloading
+
+1. **Start** <br>
+
+2. **Define the `Complex` class** <br>
+   - Declare two private data members: `real` and `imag` to store the real and imaginary parts of the complex number. <br>
+
+3. **Define a constructor** <br>
+   - Initialize the `real` and `imag` parts with the provided values (default to 0 if no values are given). <br>
+
+4. **Overload the `+` operator** <br>
+   - Define the `+` operator to add two `Complex` objects. <br>
+   - Create a new `Complex` object to store the result. <br>
+   - Add the real parts of the two complex numbers. <br>
+   - Add the imaginary parts of the two complex numbers. <br>
+   - Return the resulting `Complex` object. <br>
+
+5. **Define the `display()` function** <br>
+   - Print the complex number in the form `real + imag i`. <br>
+
+6. **In the `main()` function**: <br>
+   - Create two `Complex` objects `num1` and `num2` with specific values. <br>
+   - Add the two complex numbers using the overloaded `+` operator and store the result in another `Complex` object. <br>
+   - Display the individual complex numbers and their sum using the `display()` function. <br>
+
+7. **Stop**
